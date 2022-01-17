@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>ai.platon</groupId>
+    <groupId>ai.platon.commons</groupId>
     <artifactId>distributed-lock</artifactId>
     <version>1.4.2-SNAPSHOT</version>
   </parent>
@@ -17,7 +17,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>ai.platon</groupId>
+      <groupId>ai.platon.commons</groupId>
       <artifactId>distributed-lock-core</artifactId>
     </dependency>
     <dependency>

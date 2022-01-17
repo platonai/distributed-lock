@@ -11,7 +11,7 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
 
-  <groupId>ai.platon</groupId>
+  <groupId>ai.platon.commons</groupId>
   <artifactId>distributed-lock</artifactId>
   <version>1.4.2-SNAPSHOT</version>
 
@@ -75,17 +75,17 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>ai.platon</groupId>
+        <groupId>ai.platon.commons</groupId>
         <artifactId>distributed-lock-api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>ai.platon</groupId>
+        <groupId>ai.platon.commons</groupId>
         <artifactId>distributed-lock-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>ai.platon</groupId>
+        <groupId>ai.platon.commons</groupId>
         <artifactId>distributed-lock-mongo</artifactId>
         <version>${project.version}</version>
       </dependency>
